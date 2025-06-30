@@ -1,4 +1,5 @@
 import "./hero-component-styles.scss";
+import PropTypes from "prop-types";
 
 const HeroComponent = ({ subheadingText, headingText, classHint }) => {
 	return (
@@ -15,6 +16,11 @@ const HeroComponent = ({ subheadingText, headingText, classHint }) => {
 			</div>
 		</section>
 	);
+};
+HeroComponent.propTypes = {
+	subheadingText: PropTypes.string.isRequired,
+	headingText: PropTypes.string.isRequired,
+	classHint: PropTypes.string
 };
 
 export default HeroComponent;

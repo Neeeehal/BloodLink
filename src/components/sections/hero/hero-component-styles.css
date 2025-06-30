@@ -21,6 +21,9 @@
 .contact-page-hero {
   background: var(--dark) url("../../../assets/images/blood-donation(4).jpg") no-repeat center;
 }
+.blood-locator-page-hero {
+  background: var(--dark) url("../../../assets/images/blood-donation(8).jpg") no-repeat center;
+}
 
 .main-wrapper {
   margin: 0 auto;

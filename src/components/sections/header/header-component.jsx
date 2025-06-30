@@ -11,10 +11,10 @@ import BlackLogo from "../../../../public/BloodBlack.png";
 const navigation = [
 	{ name: "Home", href: "/" },
 	{ name: "Host Blood Drive", href: "/host-blood-drive" },
-	{ name: "Donate Money", href: "https://donorbox.org/donate-money-11" },
 	{ name: "Help Needed", href: "/contact" },
 	{ name: "Need Blood", href: "/need-blood", secondLast: true },
 	{ name: "Donate Blood", href: "/donate-blood", last: true },
+	{ name: "Nearby Blood Banks", href: "https://www.google.com/maps/search/blood+banks+/@23.0781591,76.5515599,10z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D" }
 ];
 // const logoUrl = "../public/BloodBlack.png";
 // const logoUrlWhite = "../public/BloodWhite.png";

@@ -1,9 +1,10 @@
 import HomePage from "./components/pages/home/home-page";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import DonateBloodPage from "./components/pages/donate-blood/donate-blood-page";
 import HostBloodDrivePage from "./components/pages/host-blood-drive/host-blood-drive";
 import NeedBloodPage from "./components/pages/need-blood/need-blood-page";
 import ContactPage from "./components/pages/contact/contact-page";
+import BloodLocator from "./components/pages/bloodLocation/blood-locator"; // Fixed import path
 import Admin from "./components/layouts/admin";
 
 import Dashboard from "../src/components/views/admin/dashboard";
@@ -26,6 +27,7 @@ export default function App() {
 				<Route path="/donate-blood" element={<DonateBloodPage />} />
 				<Route path="/need-blood" element={<NeedBloodPage />} />
 				<Route path="/contact" element={<ContactPage />} />
+				<Route path="/blood-locator" element={<BloodLocator />} /> {/* New route added */}
 				<Route path="/admin" element={<Admin />}>
 					<Route index element={<Dashboard />} />
 					<Route path="donate-blood" element={<AdminDonateBlood />} />
